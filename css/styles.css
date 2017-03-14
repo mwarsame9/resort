@@ -1,11 +1,14 @@
+@font-face {
+  font-family: "Caviar Dreams";
+  src:url('fonts/CaviarDreams.ttf');
+}
+
 html {
   font-family: Skia, sans-serif;
   background-color: #BBBBBB;
 }
-
-#header {
-  overflow: hidden;
-  width: 100%;
+h1, h2 {
+  text-align: center;
 }
 .header {
   height: 100%;
@@ -15,4 +18,31 @@ html {
 }
 .relative {
   position:relative;
+}
+
+.navbar ul {
+  display:table; margin:0 auto;
+}
+.navbar ul li {
+ display:inline-block;
+ margin-left:20px;
+ background-color: aquamarine;
+ padding:10px;
+ border-radius:6px;
+ text-align: center;
+}
+.btn-list li {
+  font-family: monospace;
+  display: block;
+  min-height: 100px;
+  min-width: 100px;
+  background-color: #F2C29E;
+  margin:10px;
+  max-width: 300px;
+  font-family: 'Caviar Dreams'
+}
+#header {
+  overflow: hidden;
+  width: 100%;
+  border-radius:10px;
 }
